@@ -4,6 +4,7 @@ import FormattedDate from "./FormattedDate";
 import DataIcon from "./Icons";
 import DataTemperature from "./DataTemperature";
 
+
 export default function Description(props) {
   return (
     <div className="WeatherDescription">

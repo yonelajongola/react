@@ -5,6 +5,7 @@
   background-color: rgb(5, 5, 5);
   padding: 1rem;
   border-radius:30px;
+  
 }
 
 .App footer {
@@ -31,12 +32,14 @@ ody {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  margin-left: 10rem
+  margin-left: 10rem;
+  color: rgb(32, 236, 247);
 }
 
 .WeatherDescription .col-6 ul li {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+
 }
 
 @media (max-width: 620px) {
@@ -106,7 +109,7 @@ ody {
   font-weight: 100;
   line-height: 19px;
   list-style: none
-
+}
 
 .Weather canvas {
   margin: 10px auto
@@ -138,5 +141,4 @@ ody {
       width: min-content
   }
 }
-
 

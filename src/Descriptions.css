@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
-  color: linear-gradient(45deg, pink,red););
+  
 }
 
 .WeatherDescription .col-6 .d-flex {
