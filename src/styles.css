@@ -1,0 +1,142 @@
+.App {
+  max-width: 600px;
+  margin: 30px auto;
+  color: whitesmoke;
+  background-color: rgb(5, 5, 5);
+  padding: 1rem;
+  border-radius:30px;
+}
+
+.App footer {
+  font-size: 12px;
+  margin: 10px 0;
+  font-size: 10px;
+}
+@media (max-width: 620px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: min-content;
+  }
+}
+ody {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  margin: 0
+}
+
+.WeatherDescription .col-6 .d-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 10rem
+}
+
+.WeatherDescription .col-6 ul li {
+  display: flex;
+  flex-direction: column
+}
+
+@media (max-width: 620px) {
+  .WeatherDescription,.WeatherDescription .col-6 .d-flex {
+      display:flex;
+      flex-direction: column;
+      gap: 0
+  }
+
+  .WeatherDescription .col-6 .d-flex {
+      max-width: -webkit-min-content;
+      max-width: min-content
+  }
+}
+
+.WeatherForecast .row {
+  justify-content: space-evenly;
+  margin-top: 10px;
+  text-align: center
+}
+
+.WeatherForecast-temperature-min {
+  margin-left: 5px;
+  opacity: .6
+}
+
+.WeatherForecast-day {
+  gap: 1rem
+}
+
+.Weather {
+  color: black;
+  font-family: arial,sans-serif;
+  padding: 16px
+}
+
+.Weather form {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 10px
+}
+
+.Weather .row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem
+}
+
+.WeatherDescription {
+  margin-bottom: 5px
+}
+
+.Weather h1 {
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 29px;
+  margin: 20px 0 0
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0
+}
+
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none
+
+
+.Weather canvas {
+  margin: 10px auto
+}
+
+@media (max-width: 620px) {
+  .Weather {
+      display:flex;
+      flex-direction: column;
+      gap: 0;
+      max-width: -webkit-min-content;
+      max-width: min-content
+      
+  }
+}
+.App footer {
+  font-size: 10px;
+  margin: 10px 0;
+
+
+}
+
+@media (max-width: 620px) {
+  .App {
+      display:flex;
+      flex-direction: column;
+      gap: 0;
+      width: -webkit-min-content;
+      width: min-content
+  }
+}
+
+

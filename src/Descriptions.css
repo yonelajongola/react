@@ -1,0 +1,32 @@
+.WeatherDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: linear-gradient(45deg, pink,red););
+}
+
+.WeatherDescription .col-6 .d-flex {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10rem;
+  gap: 10px;
+}
+
+.WeatherDescription .col-6 ul li {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 620px) {
+  .WeatherDescription {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .WeatherDescription .col-6 .d-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    max-width: min-content;
+  }
+}

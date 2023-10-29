@@ -1,0 +1,120 @@
+.Weather {
+  font-family: arial, sans-serif;
+  padding: 16px;
+  color: rgb(59, 232, 241);
+}
+
+.Weather form {
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.Weather .row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.Weather .col-9 .form-control {
+  width: 300px;
+  height: 30px;
+  font-size: large;
+  border: 2px solid #8c00ea99;
+  border-radius: 20px;
+  padding: 10px;
+  color: #16cfc9;
+}
+
+.Weather .col-3 input[type="submit" i] {
+  width: 100px;
+  height: 30px;
+  font-size: large;
+  background: linear-gradient(45deg, pink, red);
+  color: #e0ebeb;
+  border: 2px solid rgb(239, 164, 164);
+  border-radius: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.Weather .col-3 input[type="submit" i]:hover {
+  z-index: -2;
+  opacity: 1;
+  filter: blur(0.3px);
+  background: linear-gradient(45deg, pink, red);
+  box-shadow: 55px 0 190px pink, 1px red, 20px 10px 190px pink,
+    10px 9px 190px red;
+}
+.Weather .col-3 input[type="submit" i]:hover:active {
+  border: 4px solid transparent;
+  background: red;
+  box-shadow: 55px 0 190px pink, 0px 0px 24px red, 20px 10px 190px pink,
+    10px 9px 190px red;
+}
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.WeatherDescription {
+  margin-bottom: 10px;
+}
+
+.Weather h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
+}
+
+.Weather .temperature {
+  font-weight: bold;
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 64px;
+  margin-left: 5px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.Weather canvas {
+  margin: 10px auto;
+}
+
+.Weather .unit {
+  color: rgb(180, 130, 130);
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+}
+a {
+  color: rgb(180, 130, 130);
+}
+@media (max-width: 620px) {
+  .Weather {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    max-width: min-content;
+  }
+}
