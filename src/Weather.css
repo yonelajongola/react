@@ -101,9 +101,8 @@
 
 .Weather .unit {
   color: rgb(180, 130, 130);
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
+  font-size: 12px;
+  font-weight: 400px;
   line-height: 1;
   top: -34px;
 }
